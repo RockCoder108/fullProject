@@ -27,7 +27,7 @@ import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 import { app } from "./app.js"
 
-dotenv.config({ path: "./env" }); // or just `dotenv.config();` if file is `.env`
+dotenv.config({ path: "./.env" }); // or just `dotenv.config();` if file is `.env`
 
 connectDB()
 .then(() => {
